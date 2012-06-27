@@ -51,5 +51,7 @@ public class ConversionDeDatos {
 		String cade = String.valueOf(n1);
 		double n2 = Double.parseDouble(cade);
 		JOptionPane.showMessageDialog(null, "Se convirtio correctamente: "+n2);
+		
+		JOptionPane.showMessageDialog(null, "Ya veremos cosas mas copadas");
 	}
 }
