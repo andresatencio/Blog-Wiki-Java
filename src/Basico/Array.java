@@ -38,8 +38,8 @@ public class Array {
 		 * Esto genera un error
 		 */
 		try{
-		arregloEntero[3] = 545;										//fuera de rango
-		grupoPersonas [20] = new  Persona("Dominguez","ja",16);		//fuera de rango
+		arregloEntero[3] = 545;											//fuera de rango
+		grupoPersonas [20] = new  Persona("Dominguez","ja",16);			//fuera de rango
 		}catch(Exception e){
 			System.err.println("ERROR POR INDICE FUERA DE RANGO");
 		}
