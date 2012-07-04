@@ -26,6 +26,11 @@ public class Persona {
 		System.out.println("Mi dni es: "+this.dni);
 	}
 	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido
+				+ ", dni=" + dni + "]";
+	}
 	/**
 	 * Dentro del metodo main se Instancia el Objeto Persona
 	 * Se le pasa los parametro requeridos por el constructor
