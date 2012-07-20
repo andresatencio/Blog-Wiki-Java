@@ -33,7 +33,6 @@ public class Array {
 		grupoPersonas [0] = new  Persona("Claudio","ja",12);
 		grupoPersonas [1] = new  Persona("Maria","ja",25);
 		grupoPersonas [2] = new  Persona("Dominguez","ja",19);
-		
 		/**
 		 * Esto genera un error
 		 */
